@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Localized lighting</string>
+    <string name="main_activity_main_text">When you leave the space, remember to set lighting to default.</string>
+    <string name="main_activity_main_text_1">Business Kitchen Lighting App</string>
+    <string name="main_activity_main_text_2">. Please kindly release the switch for others when you leave.</string>
+    <string name="main_activity_seekbar_text">Adjust your lighting level:</string>
+    <string name="entry_activity_main_text">Tap a lightbulb icon on the table with your smartphone to adjust the lighting. </string>
+
+    <string name="foreground_notification_title">Business Kitchen lights occupied</string>
+    <string name="foreground_notification_text">Remember to set the lighting to default when you leave!</string>
+    <string name="foreground_notification_button">Set default</string>
+
+    <string name="error_dialog_too_many_users_at_a_time_title">Only one switch allowed to be adjusted at a time.</string>
+    <string name="error_dialog_too_many_users_at_a_time_message">To ensure smooth lighting transition, only one user is allowed to change lighting at a time. Please try again in a few seconds.</string>
+    <string name="error_dialog_too_many_users_at_a_time_btn">OK</string>
+
+    <string name="error_dialog_throttle_limit_title">Adjust limit exceeded</string>
+    <string name="error_dialog_throttle_limit_message">You have exceeded your amount of adjustments per minute. Try again later. </string>
+    <string name="error_dialog_throttle_limit_btn">OK</string>
+
+    <string name="error_dialog_no_network_title">Not connected to \"Business Kitchen\" Wi-Fi.</string>
+    <string name="error_dialog_no_network_message">Connect to \"Business Kitchen\" Wi-Fi and press \"Back\" to return to the application.</string>
+    <string name="error_dialog_no_network_btn">Connect Wi-Fi</string>
+
+
+    <string name="error_dialog_no_NFC_title">NFC not enabled</string>
+    <string name="error_dialog_no_NFC_message">Please enable \"NFC\" or \"NFC and payment\" and press \"Back\" to return to the application.</string>
+    <string name="error_dialog_no_NFC_btn">Enable NFC</string>
+
+    <string name="error_toast_network_connection_lost">No network. Lighting returned to the default state.</string>
+
+    <string name="app_shared_preference_file_key">LocalizedLightingSharedPreferences</string>
+    <string name="saved_main_activity_launched_key">mainActivityLaunched</string>
+    <string name="saved_token_key">token</string>
+    <string name="saved_username_key">username</string>
+    <string name="saved_password_key">password</string>
+
+</resources>
